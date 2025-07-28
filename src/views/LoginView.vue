@@ -39,7 +39,7 @@ import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { login } from '@/services/auth-service'
 import { object, string } from '@/utils/validation-util'
-import type {LoginPayload,LoginResponse} from '@/services/auth-service'
+import type {LoginPayload} from '@/services/auth-service'
 
 
 const router = useRouter()

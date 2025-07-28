@@ -25,8 +25,8 @@
     <div v-else>Đang tải dữ liệu...</div>
 
     <EditFriendComponent
-      v-if="showEditDialog"
-      :friend="friendToEdit"
+      v-if="showEditDialog && friendToEdit"
+      :friend="friendToEdit!"
       @close-edit="showEditDialog = false"
       @edit-friend="handleEditFriend"
     />

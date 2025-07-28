@@ -22,7 +22,7 @@ import type { Friend } from '@/services/friend-service'
 const props = defineProps<{
   showDialog: boolean
 }>()
-
+console.log(props.showDialog);
 const emit = defineEmits<{
   (e: 'save-friend', friend: Friend): void
   (e: 'update:showDialog', value: boolean): void

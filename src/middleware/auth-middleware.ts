@@ -3,7 +3,7 @@ import type { NavigationGuardNext, RouteLocationNormalized } from 'vue-router'
 
 export default function authMiddleware(
   to: RouteLocationNormalized,
-  from: RouteLocationNormalized,
+  _from: RouteLocationNormalized,
   next: NavigationGuardNext
 ) {
   // Check required Auth
